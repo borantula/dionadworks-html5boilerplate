@@ -1,0 +1,21 @@
+body {
+	@include fontMain;
+	color:$color_text;
+	background:$color_bg;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+	@include fontTitle;
+}
+
+/**
+*	Mobile css here
+*
+*/
+@media only screen and (max-width: 767px) {
+	
+	
+}
+
+

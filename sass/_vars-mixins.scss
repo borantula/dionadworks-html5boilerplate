@@ -1,0 +1,16 @@
+/*------------------
+	Colors & Fonts
+-------------------*/
+
+$color_text :#333;
+
+$color_bg : rgb(222, 223, 204);
+
+
+@mixin fontMain {
+  font-family: "Arial";
+}
+
+@mixin fontTitle {
+  font-family: "Helvetica","Verdana",;
+}
