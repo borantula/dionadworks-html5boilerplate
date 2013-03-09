@@ -386,16 +386,23 @@ img, object, embed {
 -------------------*/
 body {
   font-family: "Arial";
-  color: #666666;
-  background: #dedfcc; }
+  color: black;
+  background: #f8ffd3; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Helvetica","Verdana",; }
+
+.main-content .dion-logo {
+  margin: 20px 0;
+  text-align: center; }
 
 /**
 *	Mobile css here
 *
 */
+@media only screen and (max-width: 767px) {
+  .main-content .dion-logo img {
+    width: 50%; } }
 /* ==========================================================================
    Helper classes
    ========================================================================== */
