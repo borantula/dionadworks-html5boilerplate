@@ -1,14 +1,25 @@
 $rowWidth : 980px !default;
 $gutterWidth: 10px !default;
 $noOfColumns : 12 !default;
-$isResponsive : true;
+$isResponsive : true !default; 
 
 @mixin columnWidth($col){
-  width:(100% / $noOfColumns ) * $col;
+  @if $isResponsive == false {
+    width:($rowWidth / $noOfColumns ) * $col;
+  } @else {
+    width:(100% / $noOfColumns ) * $col;
+  }
+
 }
 
 @mixin pushColumn($col){
-  margin-left:(100% / $noOfColumns ) * $col;
+  @if $isResponsive == false {
+    margin-left:($rowWidth / $noOfColumns ) * $col;
+  } @else {
+
+    margin-left:(100% / $noOfColumns ) * $col;
+  }
+
 }
 
 

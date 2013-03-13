@@ -87,7 +87,7 @@ textarea {
 /* Containers
 ----------------------------------------------------------------------------------------------------*/
 .row {
-  width: 820px;
+  width: 800px;
   max-width: 100%;
   min-width: 768px;
   margin: 0 auto; }
@@ -191,83 +191,135 @@ textarea {
   min-height: 1px;
   padding: 0 10px; }
 
+.column-13 {
+  display: inline;
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding: 0 10px; }
+
+.column-14 {
+  display: inline;
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding: 0 10px; }
+
+.column-15 {
+  display: inline;
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding: 0 10px; }
+
+.column-16 {
+  display: inline;
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding: 0 10px; }
+
 /**
 * Column widths
 */
 .column-1 {
-  width: 8.33333%; }
+  width: 50px; }
 
 .column-2 {
-  width: 16.66667%; }
+  width: 100px; }
 
 .column-3 {
-  width: 25%; }
+  width: 150px; }
 
 .column-4 {
-  width: 33.33333%; }
+  width: 200px; }
 
 .column-5 {
-  width: 41.66667%; }
+  width: 250px; }
 
 .column-6 {
-  width: 50%; }
+  width: 300px; }
 
 .column-7 {
-  width: 58.33333%; }
+  width: 350px; }
 
 .column-8 {
-  width: 66.66667%; }
+  width: 400px; }
 
 .column-9 {
-  width: 75%; }
+  width: 450px; }
 
 .column-10 {
-  width: 83.33333%; }
+  width: 500px; }
 
 .column-11 {
-  width: 91.66667%; }
+  width: 550px; }
 
 .column-12 {
-  width: 100%; }
+  width: 600px; }
+
+.column-13 {
+  width: 650px; }
+
+.column-14 {
+  width: 700px; }
+
+.column-15 {
+  width: 750px; }
+
+.column-16 {
+  width: 800px; }
 
 /**
 * Pushes
 */
 .push-1 {
-  margin-left: 8.33333%; }
+  margin-left: 50px; }
 
 .push-2 {
-  margin-left: 16.66667%; }
+  margin-left: 100px; }
 
 .push-3 {
-  margin-left: 25%; }
+  margin-left: 150px; }
 
 .push-4 {
-  margin-left: 33.33333%; }
+  margin-left: 200px; }
 
 .push-5 {
-  margin-left: 41.66667%; }
+  margin-left: 250px; }
 
 .push-6 {
-  margin-left: 50%; }
+  margin-left: 300px; }
 
 .push-7 {
-  margin-left: 58.33333%; }
+  margin-left: 350px; }
 
 .push-8 {
-  margin-left: 66.66667%; }
+  margin-left: 400px; }
 
 .push-9 {
-  margin-left: 75%; }
+  margin-left: 450px; }
 
 .push-10 {
-  margin-left: 83.33333%; }
+  margin-left: 500px; }
 
 .push-11 {
-  margin-left: 91.66667%; }
+  margin-left: 550px; }
 
 .push-12 {
-  margin-left: 100%; }
+  margin-left: 600px; }
+
+.push-13 {
+  margin-left: 650px; }
+
+.push-14 {
+  margin-left: 700px; }
+
+.push-15 {
+  margin-left: 750px; }
+
+.push-16 {
+  margin-left: 800px; }
 
 /**
 * for centering the columns. Should be used with column_x classes.
@@ -284,55 +336,6 @@ img {
 img, object, embed {
   max-width: 100%; }
 
-/**
-* For small screens
-*/
-/* Small screens */
-@media only screen and (max-width: 767px) {
-  .row {
-    width: auto;
-    min-width: 0;
-    margin-left: 0;
-    margin-right: 0; }
-
-  /**
-  * Column widths
-  */
-  .column-1 {
-    width: 100%; }
-
-  .column-2 {
-    width: 100%; }
-
-  .column-3 {
-    width: 100%; }
-
-  .column-4 {
-    width: 100%; }
-
-  .column-5 {
-    width: 100%; }
-
-  .column-6 {
-    width: 100%; }
-
-  .column-7 {
-    width: 100%; }
-
-  .column-8 {
-    width: 100%; }
-
-  .column-9 {
-    width: 100%; }
-
-  .column-10 {
-    width: 100%; }
-
-  .column-11 {
-    width: 100%; }
-
-  .column-12 {
-    width: 100%; } }
 [class*="column-"] + [class*="column-"]:last-child {
   float: left; }
 
@@ -395,6 +398,11 @@ h1, h2, h3, h4, h5, h6 {
 .main-content .dion-logo {
   margin: 20px 0;
   text-align: center; }
+
+.content-parts {
+  width: 100%;
+  background: #999;
+  min-height: 100px; }
 
 /**
 *	Mobile css here
